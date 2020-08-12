@@ -16,6 +16,7 @@ public class Demo {
 	public void openBrowser()
 	{
 		System.out.println("openbrowser");
+		System.out.println("success");
 	}
 	@BeforeTest
 	public void enterUrl()
