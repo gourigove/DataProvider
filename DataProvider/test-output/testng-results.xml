@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15288" started-at="2020-08-12T12:39:18Z" finished-at="2020-08-12T12:39:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15288" started-at="2020-08-12T12:39:18Z" finished-at="2020-08-12T12:39:34Z">
+      <class name="com.model.MercuryTours">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.model.MercuryTours@3043fe0e]" name="openBrowser" is-config="true" duration-ms="5865" started-at="2020-08-12T12:39:13Z" finished-at="2020-08-12T12:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:com.model.MercuryTours@3043fe0e]" name="openUrl" is-config="true" duration-ms="5265" started-at="2020-08-12T12:39:18Z" finished-at="2020-08-12T12:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:com.model.MercuryTours@3043fe0e]" name="takeScreenshot" is-config="true" duration-ms="892" started-at="2020-08-12T12:39:24Z" finished-at="2020-08-12T12:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.model.MercuryTours@3043fe0e]" name="login" duration-ms="4312" started-at="2020-08-12T12:39:25Z" data-provider="getdata" finished-at="2020-08-12T12:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cjc1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="takeScreenshot()[pri:0, instance:com.model.MercuryTours@3043fe0e]" name="takeScreenshot" is-config="true" duration-ms="573" started-at="2020-08-12T12:39:29Z" finished-at="2020-08-12T12:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.model.MercuryTours@3043fe0e]" name="login" duration-ms="4099" started-at="2020-08-12T12:39:30Z" data-provider="getdata" finished-at="2020-08-12T12:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manjusha1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manjusha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.model.MercuryTours -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
