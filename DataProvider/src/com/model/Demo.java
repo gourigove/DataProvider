@@ -22,7 +22,7 @@ public class Demo {
 	public void enterUrl()
 	{
 		System.out.println("url");
-		system.out.println("success");
+		System.out.println("success");
 	}
 	@BeforeClass
 	public void  maximizePage()
